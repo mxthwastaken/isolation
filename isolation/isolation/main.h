@@ -87,16 +87,16 @@ namespace iso {
 
 	namespace auth {
 		inline bool auth = true;
-        inline std::string ver = "1.0";
+        	inline std::string ver = "1.0";
 	}
 
 	namespace tools {
 
 	}
 
-    namespace handles {
-        inline HANDLE one{};
-        inline HANDLE two{};
-        inline HANDLE three{};
-    }
+	namespace handles {
+		inline HANDLE one{};
+		inline HANDLE two{};
+		inline HANDLE three{};
+	}
 }
